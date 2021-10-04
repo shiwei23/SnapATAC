@@ -1352,7 +1352,7 @@ snapRbind <- function(obj1, obj2){
 		stop("bmat has different dimentions in obj1 and obj2!")
 	}else{
 		#bmat = Matrix::rBind(bmat1, bmat2);
-		bmat = Matrix::rbind(bmat1, bmat2);  # fix for R 4.1
+		bmat = rbind(bmat1, bmat2);  # fix for R 4.1
 	}
 	rm(bmat1, bmat2)
 	gc()
@@ -1364,7 +1364,7 @@ snapRbind <- function(obj1, obj2){
 		stop("gmat has different dimentions in obj1 and obj2!")
 	}else{
 		#gmat = Matrix::rBind(gmat1, gmat2);
-		gmat = Matrix::rbind(gmat1, gmat2);  # fix for R 4.1
+		gmat = rbind(gmat1, gmat2);  # fix for R 4.1
 	}
 	rm(gmat1, gmat2)
 	gc()
@@ -1376,7 +1376,7 @@ snapRbind <- function(obj1, obj2){
 		stop("pmat has different dimentions in obj1 and obj2!")
 	}else{
 		#pmat = Matrix::rBind(pmat1, pmat2);
-		pmat = Matrix::rbind(pmat1, pmat2);  # fix for R 4.1
+		pmat = rbind(pmat1, pmat2);  # fix for R 4.1
 	}
 	rm(pmat1, pmat2)
 	gc()
@@ -1390,7 +1390,7 @@ snapRbind <- function(obj1, obj2){
 		stop("dmat has different dimentions in obj1 and obj2!")
 	}else{
 		#dmat = Matrix::rBind(dmat1, dmat2);
-		dmat = Matrix::rbind(dmat1, dmat2);  # fix for R 4.1
+		dmat = rbind(dmat1, dmat2);  # fix for R 4.1
 	}
 	rm(dmat1, dmat2)
 	gc()
